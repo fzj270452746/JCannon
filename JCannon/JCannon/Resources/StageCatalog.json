@@ -1,0 +1,74 @@
+[
+  {
+    "index": 1,
+    "theme": "forest",
+    "goal": { "type": "destroyAll" },
+    "shots": 4,
+    "hasBoss": false,
+    "bossHP": null,
+    "windSpeed": 0.0,
+    "ammo": ["wan", "bamboo"],
+    "structures": [
+      { "kind": "woodTower", "x": 5.0, "y": 0.0, "z": 0.0 },
+      { "kind": "woodTower", "x": 7.5, "y": 0.0, "z": 0.0 }
+    ]
+  },
+  {
+    "index": 2,
+    "theme": "forest",
+    "goal": { "type": "destroyAll" },
+    "shots": 4,
+    "hasBoss": false,
+    "bossHP": null,
+    "windSpeed": 1.2,
+    "ammo": ["wan", "bamboo"],
+    "structures": [
+      { "kind": "stoneTower", "x": 5.0, "y": 0.0, "z": 0.0 },
+      { "kind": "woodTower", "x": 7.0, "y": 0.0, "z": 0.0 },
+      { "kind": "bridge", "x": 9.5, "y": 0.0, "z": 0.0 }
+    ]
+  },
+  {
+    "index": 3,
+    "theme": "forest",
+    "goal": { "type": "destroyWithinShots", "shots": 3 },
+    "shots": 3,
+    "hasBoss": false,
+    "bossHP": null,
+    "windSpeed": -1.5,
+    "ammo": ["wan", "bamboo", "redDragon"],
+    "structures": [
+      { "kind": "castle", "x": 6.5, "y": 0.0, "z": 0.0 },
+      { "kind": "stoneTower", "x": 9.0, "y": 0.0, "z": 0.0 }
+    ]
+  },
+  {
+    "index": 5,
+    "theme": "snow",
+    "goal": { "type": "breakPillars", "count": 3 },
+    "shots": 5,
+    "hasBoss": false,
+    "bossHP": null,
+    "windSpeed": 2.0,
+    "ammo": ["wan", "bamboo", "redDragon"],
+    "structures": [
+      { "kind": "dragonPillar", "x": 5.0, "y": 0.0, "z": 0.0 },
+      { "kind": "dragonPillar", "x": 7.0, "y": 0.0, "z": 0.0 },
+      { "kind": "dragonPillar", "x": 9.0, "y": 0.0, "z": 0.0 }
+    ]
+  },
+  {
+    "index": 10,
+    "theme": "volcano",
+    "goal": { "type": "destroyBoss" },
+    "shots": 14,
+    "hasBoss": true,
+    "bossHP": 180,
+    "windSpeed": 0.0,
+    "ammo": ["redDragon", "greenDragon", "whiteDragon", "wan", "bamboo", "dot"],
+    "structures": [
+      { "kind": "stoneTower", "x": 3.5, "y": 0.0, "z": 0.0 },
+      { "kind": "stoneTower", "x": 6.0, "y": 0.0, "z": 0.0 }
+    ]
+  }
+]

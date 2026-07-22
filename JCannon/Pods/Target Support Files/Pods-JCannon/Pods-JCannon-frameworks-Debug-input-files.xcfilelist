@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-JCannon/Pods-JCannon-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Adjust/AdjustSdk.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AdjustSignature/AdjustSigSdk.framework/AdjustSigSdk

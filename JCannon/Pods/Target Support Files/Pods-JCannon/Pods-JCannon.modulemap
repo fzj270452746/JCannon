@@ -1,0 +1,6 @@
+framework module Pods_JCannon {
+  umbrella header "Pods-JCannon-umbrella.h"
+
+  export *
+  module * { export * }
+}
