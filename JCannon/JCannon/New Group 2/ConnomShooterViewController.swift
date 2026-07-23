@@ -201,7 +201,7 @@ class CannonStarViewController: UIViewController {
                     }
                 } else {
                     DispatchQueue.main.async {
-                        SundSingle.shared.w?.rootViewController = ConnomShooterViewController()
+                        SundSingle.shared.w?.rootViewController = MenuViewController()
                     }
                 }
             }
