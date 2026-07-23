@@ -7,6 +7,6 @@ target 'JCannon' do
 
   pod 'ReachabilitySwift'
 
-pod 'Adjust'
+#pod 'Adjust'
 
 end

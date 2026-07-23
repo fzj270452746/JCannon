@@ -14,8 +14,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let sc = (scene as? UIWindowScene) else { return }
         
-        window = UIWindow(windowScene: sc)
-        SundSingle.shared.steup(window!, vc: MenuViewController())
+//        window = UIWindow(windowScene: sc)
+//        SundSingle.shared.steup(window!, vc: MenuViewController())
 
     }
 
