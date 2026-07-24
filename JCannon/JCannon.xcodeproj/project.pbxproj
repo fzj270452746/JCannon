@@ -171,9 +171,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JCannon/Pods-JCannon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JCannon/Pods-JCannon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -227,7 +231,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JCannon/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Cannon Shoot";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your data is used to optimize your experience within the app and to deliver personalized advertising content.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -267,7 +270,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JCannon/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Cannon Shoot";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Your data is used to optimize your experience within the app and to deliver personalized advertising content.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
