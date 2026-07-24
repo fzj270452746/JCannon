@@ -1,7 +1,7 @@
 
 
 import UIKit
-import AppTrackingTransparency
+//import AppTrackingTransparency
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -27,11 +27,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            ATTrackingManager.requestTrackingAuthorization { statue in
-                
-            }
-        }
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+//            ATTrackingManager.requestTrackingAuthorization { statue in
+//                
+//            }
+//        }
     }
 
     func sceneWillResignActive(_ scene: UIScene) {
